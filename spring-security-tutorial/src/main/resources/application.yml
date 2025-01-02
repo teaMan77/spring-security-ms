@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-security-tutorial
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/user_registration
+    username: root
+    password: Thought@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
