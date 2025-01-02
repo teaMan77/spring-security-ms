@@ -14,7 +14,7 @@
     </properties>
 
     <modules>
-        <module>spring-security-tutorial</module>
+        <module>spring-security-client</module>
         <module>OAuth-Authorization-server</module>
     </modules>
 
